@@ -1,0 +1,51 @@
+:root{
+    --cor-fundo: #116ed8 ;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333; 
+    --cor-destaque: #007e73;
+    --cor-texto: #1c00b9;
+
+}
+
+body {
+   
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+html {
+    width: 100%;
+    
+    background-image: url("inteligencia.jpg");
+    background-size: 1920px 1060px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container {
+    position: relative;
+  }
+  #imagem {
+    position: absolute;
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 15px;
+    left: 250px;
+    top: 135px;
+  }
+
+.caixa-principal{
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 800px;
+
+}
+
+h1{
+    color: var(--cor-destaque);
+}
