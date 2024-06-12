@@ -23,19 +23,30 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 .container {
+    display: inline-block;
     position: relative;
   }
-  #imagem {
+  .container h1 {
     position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
   }
-  
-  #texto {
+  .container div {
     position: absolute;
-    font-size: 15px;
-    left: 250px;
-    top: 135px;
+    top: 145px;
+    right: 20px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
   }
+
+#imagem {
+    position: absolute;
+    top: 140px;
+}
 
 .caixa-principal{
     width: 100%;
