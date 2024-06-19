@@ -6,66 +6,66 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "O futuro da humanidade é um horizonte brilhante, onde a tecnologia e a sustentabilidade se unem para criar um mundo melhor. Avanços na energia renovável e na gestão de recursos naturais garantem um ambiente saudável para as gerações futuras. A inteligência artificial e a biotecnologia revolucionam a medicina e a indústria, eliminando doenças e aumentando a qualidade de vida. As cidades inteligentes florescem, impulsionadas por sistemas de transporte eficientes e infraestrutura verde. Nesse futuro incrível, a humanidade prospera em harmonia com o planeta, alcançando novos patamares de sucesso e bem-estar.",
+        enunciado: "As tartarugas marinhas podem viver entre 150 e 200 anos, dependendo da espécie, de acordo com um artigo publicado pela National Geographic Espanha. Seus primeiros anos de vida, no entanto, são um mistério para aqueles que estudam o animal de perto.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Interessante",
+                afirmacao: "Afirmação"
+            },
+            {
+                texto: "Perguntei?",
+                afirmacao: "é esse"
+            }
+        ]
+    },
+    {
+        enunciado: "Ciência e tecnologia no Brasil são produzidas em grande parte nas universidades públicas e institutos de pesquisa. Neste campo de conhecimento o Brasil obteve, nas últimas décadas, uma posição significativa no cenário internacional.",
+        alternativas: [
+            {
+                texto: "Bizonho!",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Radical",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "À medida que avançamos para o futuro, nos deparamos com desafios sem precedentes. O aquecimento global continua a acelerar, desencadeando eventos climáticos extremos e ameaçando a estabilidade dos ecossistemas. Enquanto isso, os avanços na inteligência artificial e na biotecnologia levantam questões éticas e morais complexas. A automação transforma o mercado de trabalho, criando desigualdades econômicas e sociais. Nesse cenário desafiador, a humanidade enfrenta uma encruzilhada, onde as escolhas que fizermos determinarão o curso do futuro.",
+        enunciado: "O mercado industrial foi marcado por inovações, o conceito de indústria 4.0 se mostra cada vez mais promissor. A automação passa a contar com sensores que geram dados em tempo real, plugando à robótica e a Internet das Coisas. O conceito de indústria 4.0 aumenta a performance não só da linha de produção, mas também de toda a jornada da matéria prima ao produto e a entrega do produto ao consumidor. Com o advento do 5G no Brasil, esse conceito ficará ainda mais forte.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Doideira",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Quem?",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "No horizonte, vislumbramos um futuro turbulento, onde conflitos geopolíticos e rivalidades entre nações definem o curso dos acontecimentos. O aumento da escassez de recursos naturais e as mudanças climáticas exacerbam as tensões globais, levando a crises humanitárias e conflitos armados. Enquanto isso, a evolução rápida da tecnologia cria novas ameaças à segurança cibernética e à privacidade individual. Nesse mundo de incertezas, a cooperação internacional se torna mais crucial do que nunca para enfrentar os desafios comuns da humanidade.",
+        enunciado: "O Universo é vasto e deve existir a pelo menos 13 bilhões de anos. Apesar de conter um número gigantesco de galáxias, estrelas e planetas, o Universo é mais vazio do que imaginamos: a distância que separa os corpos celestes é geralmente muito grande.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Legal",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Chatão",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "À medida que a ciência avança, a humanidade se vê diante de novas fronteiras éticas e sociais. Avanços na engenharia genética permitem modificações no DNA humano, oferecendo a promessa de curar doenças genéticas e melhorar características físicas e cognitivas. No entanto, isso levanta preocupações sobre desigualdades socioeconômicas e discriminação genética. Enquanto exploramos as possibilidades e os limites da manipulação genética, também enfrentamos questões profundas sobre identidade, igualdade e o que significa ser humano.",
+        enunciado: "O sexo de um bebê jacaré é definido pela temperatura, quanto mais quente o ninho, maiores são as probabilidades do nascimento de fêmeas, é o aquecimento global prejudica estes animais, diminuindo a quantidade de machos existente no globo.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto:  "Jaré",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmação"
-            }
-        ]
-    },
-    {
-        enunciado: "À medida que olhamos para o céu, vemos um futuro de possibilidades infinitas. A exploração espacial se torna uma prioridade global, com a humanidade estabelecendo colônias em Marte e além. Essa busca por novos horizontes não apenas impulsiona a tecnologia e a inovação, mas também promove a cooperação internacional e a paz mundial. Enquanto nos aventuramos no espaço sideral, também encontramos novas formas de nos unirmos como uma única espécie, transcendendo fronteiras e diferenças. Nesse futuro de integração global e exploração cósmica, a humanidade se torna verdadeiramente uma civilização interplanetária.",
-        alternativas: [
-            {
-                texto:  "Isso é assustador!",
-                afirmacao: "afirmação"
-            },
-            {
-                texto: "Isso é maravilhoso!",
+                texto:  "Putz",
                 afirmacao: "afirmação"
             }
         ]
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Possibilidades que amedrontam nossa civilização, o medo do desconhecido, ASS: Senegalia e Gregório...";
+    caixaPerguntas.textContent = "Como já dizia Nat Rutz Tudo vira bosta...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
